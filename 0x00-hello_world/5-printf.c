@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	char z[100] = "with proper grammer, but the outcome is a piece of art,";
+	char z[100] = "with proper grammar, but the outcome is a piece of art,";
 
 	printf("%s\n", z);
 	return (0);
