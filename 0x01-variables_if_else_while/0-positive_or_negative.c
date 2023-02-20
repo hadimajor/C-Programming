@@ -3,14 +3,12 @@
 #include <time.h>
 
 /**
- * main: Entry point
+ * main - Entry point
  *
  * Description: Program that determine a random number is positive or negative.
  *
- * Return:Always 0 Success
+ * Return: Always 0 Success
  */
-
-/*Betty style document for function main*/
 
 int main(void)
 {
@@ -21,15 +19,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%i\n is positive", n);
+		printf("%i is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("%i\n is zero", n);
+		printf("%i is zero\n", n);
 	}
 	else
 	{
-		printf("%i\n is negative", n);
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }
