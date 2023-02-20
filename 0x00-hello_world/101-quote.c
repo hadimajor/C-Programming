@@ -10,9 +10,8 @@
 
 int main(void)
 {
-	char a[] = "Text here";
+	char a[100] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	a = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-	fprintf(stdout, "%s", a);
+	printf("%s", a);
 	return (1);
 }
