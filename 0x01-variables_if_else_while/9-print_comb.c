@@ -5,8 +5,8 @@
 *
 * Description: Program that prints combination
 * of single-digit numbers.
-* 
-* Return: 0 (Success)
+*
+* Return: 0 Success
 *
 */
 
