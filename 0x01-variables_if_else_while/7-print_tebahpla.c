@@ -16,7 +16,7 @@ int main(void)
 	char c = 'z';
 /* print the alphabet in lowercase */
 
-	while (c > 'a')
+	while (c >= 'a')
 	putchar(c--);
 	putchar('\n');
 	return (0);
