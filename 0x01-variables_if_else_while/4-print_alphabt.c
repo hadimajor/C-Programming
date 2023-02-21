@@ -4,7 +4,7 @@
 * main - Entry point
 *
 * Description: Program that prints the alphabet
-* in lowercase, then in uppercase.
+* in lowercase, excluding q and e.
 *
 *
 * Return: 0 (Success)
@@ -13,13 +13,15 @@
 
 int main(void)
 {
-	char c = 'a';
+	char c;
 /* print the alphabet in lowercase */
 
 
-	for (c <= 'z'; c != "qe"; c++)
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c'\n');
+		while (c != 'e' && 'q')
+		putchar(c);
 	}
+	putchar('\n');
 	return (0);
 }
