@@ -5,11 +5,11 @@
  *
  * Description : Print _putchar
  *
- * Return : Returns 0 (Success)
+ * Return : Always 0 (Success)
  */
 
-int main(void)
+void main(void)
 {
 	write(1, "_putchar\n", 9);
-		return (0);
+	return (0);
 }
