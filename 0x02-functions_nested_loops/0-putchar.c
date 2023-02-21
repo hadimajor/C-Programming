@@ -1,14 +1,15 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
+ * main - prints _putchar  to stdout
  *
- * Description : Print _putchar
+ * Description : Program to print _putchar
  *
  * Return : Always 0 (Success)
+ *
  */
 
-void main(void)
+int main(void)
 {
 	write(1, "_putchar\n", 9);
 	return (0);
