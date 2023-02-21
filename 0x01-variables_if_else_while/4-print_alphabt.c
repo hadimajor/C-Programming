@@ -17,7 +17,8 @@ int main(void)
 /* print the alphabet in lowercase */
 
 	while (c <= 'z')
-		(c != 'e' && 'q');
+		(c != 'e');
+		(c != 'q');
 	putchar(c++);
 	putchar('\n');
 	return (0);
