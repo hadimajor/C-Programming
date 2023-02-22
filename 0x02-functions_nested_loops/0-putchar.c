@@ -1,16 +1,16 @@
-#include <unistd.h>
+#include <stdio.h>
 
 /**
  * main - prints _putchar  to stdout
  *
- * Description : Program to print _putchar
+ * Description: Program to print _putchar
  *
- * Return : Always 0 (Success)
+ * Return: Always 0 (Success)
  *
  */
 
 int main(void)
 {
-	write(1, "_putchar\n", 9);
+	printf("_putchar\n");
 	return (0);
 }
