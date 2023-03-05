@@ -10,11 +10,17 @@
 
 int main(void)
 {
-	int a = 16;
+	int a;
+	char c;
 
-	putchar("%X", a);
-		putchar('\n');
-
+	for (a = '0'; a <= '9'; a++)
+	{
+		putchar(a);
+	}
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 	return (0);
-
 }
