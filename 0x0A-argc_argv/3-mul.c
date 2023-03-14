@@ -9,7 +9,7 @@
  * @argc: argument counter
  * @argv: argument vector
  *
- * return:  Always 0 (success), 1 (ERROR)
+ * Return:  Always 0 (success), 1 if there is an ERROR
  */
 
 int main(int argc, char *argv[])
