@@ -11,10 +11,9 @@
 
 void *malloc_checked(unsigned int b)
 {
-	unsigned int *i;
+	void *array = malloc(b);
 
-	i = malloc(b);
-	if (i == NULL)
+	if (array == NULL)
 		exit(98);
-	return (i);
+	return (array);
 }
