@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 		printf("%s\n", "Error");
 		exit(98);
 	}
-	
+
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[2]);
 	mul = num1 * num2;
