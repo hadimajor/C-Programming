@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * print_string - Fxn prints string
+ * print_strings- Fxn prints string
  *
  * @separator: string to be printed between string
  * @n: number of stringpassed to fxn
